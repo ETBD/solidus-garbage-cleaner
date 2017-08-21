@@ -63,11 +63,11 @@ describe Spree::Order do
 
     context 'using another timestamp column' do
       before do
-        Spree::GarbageCleaner::Config.set(:timestamp_column, 'updated_at')
+        Spree::GarbageCleaner::Config.set(timestamp_column: 'updated_at')
       end
 
       after do
-        Spree::GarbageCleaner::Config.set(:timestamp_column, 'created_at')
+        Spree::GarbageCleaner::Config.set(timestamp_column: 'created_at')
       end
 
       it 'is garbage if past cleanup_days_interval' do

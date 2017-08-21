@@ -1,4 +1,4 @@
-## SpreeGarbageCleaner
+## Solidus Garbage Cleaner
 
 [![Build Status](https://secure.travis-ci.org/nebulab/spree-garbage-cleaner.png?branch=master)](http://travis-ci.org/nebulab/spree-garbage-cleaner)
 [![Code Climate](https://codeclimate.com/badge.png)](https://codeclimate.com/github/nebulab/spree-garbage-cleaner)
@@ -27,7 +27,7 @@ dependent association instances:
 Add the gem to your Gemfile:
 
 ```ruby
-gem 'spree_garbage_cleaner', :git => 'git://github.com/nebulab/spree-garbage-cleaner.git'
+gem 'solidus_garbage_cleaner', :git => 'git://github.com/ETBD/solidus-garbage-cleaner.git'
 ```
 
 Run bundle:

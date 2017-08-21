@@ -1,4 +1,4 @@
-module SpreeGarbageCleaner
+module SolidusGarbageCleaner
   module Helpers
     module ActiveRecord
       def self.included(base)

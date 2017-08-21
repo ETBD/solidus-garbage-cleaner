@@ -1,6 +1,6 @@
 module Spree
   Order.class_eval do
-    include SpreeGarbageCleaner::Helpers::ActiveRecord
+    include SolidusGarbageCleaner::Helpers::ActiveRecord
 
     def self.garbage
       garbage_after = Spree::GarbageCleaner::Config.cleanup_days_interval
